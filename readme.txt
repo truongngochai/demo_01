@@ -1,3 +1,5 @@
+shift + Insert
+
 touch index.html
 
 git init
@@ -41,3 +43,14 @@ inside gitignore
 
 git add .
 git status -> only have gitignore and dir2
+
+-- branch master -> main branch
+-- should commit on another branch 
+
+git branch mybranch1
+
+git status -> nothing change
+
+git commit -m "another change"
+
+git checkout mybranch1 -> to change commit branch
